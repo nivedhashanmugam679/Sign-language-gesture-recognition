@@ -16,7 +16,7 @@ print("Loaded model from disk")
 cap = cv2.VideoCapture(0)
 
 # Category dictionary
-categories = {0: 'ZERO', 1: 'ONE', 2: 'TWO', 3: 'THREE', 4: 'FOUR', 5: 'FIVE'}
+categories = {0: 'ZERO', 1: 'ONE', 2: 'TWO', 3: 'THREE', 4: 'FOUR', 5: 'FIVE', 'A': 'A_ASL', 'C': 'C_ASL', 'D': 'D_ASL', 'H': 'H_ASL', 'L': 'L_ASL', 'M': 'M_ASL', 'P': 'P_ASL', 'R': 'R_ASL', 'U': 'U_ASL'}
 
 while True:
     _, frame = cap.read()
@@ -47,15 +47,15 @@ while True:
                   'TWO': result[0][2],
                   'THREE': result[0][3],
                   'FOUR': result[0][4],
-                  'FIVE': result[0][5]}
-                  'A_ASL': result[0]['A']}
-                  'C_ASL': result[0]['C']}
-                  'D_ASL': result[0]['D']}
-                  'H_ASL': result[0]['H']}
-                  'L_ASL': result[0]['L']}
-                  'M_ASL': result[0]['M']}
-                  'P_ASL': result[0]['P']}
-                  'R_ASL': result[0]['R']}
+                  'FIVE': result[0][5],
+                  'A_ASL': result[0]['A'],
+                  'C_ASL': result[0]['C'],
+                  'D_ASL': result[0]['D'],
+                  'H_ASL': result[0]['H'],
+                  'L_ASL': result[0]['L'],
+                  'M_ASL': result[0]['M'],
+                  'P_ASL': result[0]['P'],
+                  'R_ASL': result[0]['R'],
                   'U_ASL': result[0]['U']}
                   
     # Sorting based on top prediction
