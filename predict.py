@@ -48,6 +48,16 @@ while True:
                   'THREE': result[0][3],
                   'FOUR': result[0][4],
                   'FIVE': result[0][5]}
+                  'A_ASL': result[0]['A']}
+                  'C_ASL': result[0]['C']}
+                  'D_ASL': result[0]['D']}
+                  'H_ASL': result[0]['H']}
+                  'L_ASL': result[0]['L']}
+                  'M_ASL': result[0]['M']}
+                  'P_ASL': result[0]['P']}
+                  'R_ASL': result[0]['R']}
+                  'U_ASL': result[0]['U']}
+                  
     # Sorting based on top prediction
     prediction = sorted(prediction.items(), key=operator.itemgetter(1), reverse=True)
     
