@@ -23,7 +23,7 @@ classifier.add(Flatten())
 
 # Adding a fully connected layer
 classifier.add(Dense(units=128, activation='relu'))
-classifier.add(Dense(units=6, activation='softmax')) # softmax for more than 2
+classifier.add(Dense(units=15, activation='softmax')) # softmax for more than 2
 
 # Compiling the CNN
 classifier.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy']) # categorical_crossentropy for more than 2
