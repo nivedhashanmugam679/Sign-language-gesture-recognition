@@ -55,15 +55,15 @@ while True:
              'two': len(os.listdir(directory+"/2")),
              'three': len(os.listdir(directory+"/3")),
              'four': len(os.listdir(directory+"/4")),
-             'five': len(os.listdir(directory+"/5"))}
-             'a': len(os.listdir(directory+"/A"))}
-             'c': len(os.listdir(directory+"/C"))}
-             'd': len(os.listdir(directory+"/D"))}
-             'h': len(os.listdir(directory+"/H"))}
-             'l': len(os.listdir(directory+"/L"))}
-             'm': len(os.listdir(directory+"/M"))}
-             'p': len(os.listdir(directory+"/P"))}
-             'r': len(os.listdir(directory+"/R"))}
+             'five': len(os.listdir(directory+"/5")),
+             'a': len(os.listdir(directory+"/A")),
+             'c': len(os.listdir(directory+"/C")),
+             'd': len(os.listdir(directory+"/D")),
+             'h': len(os.listdir(directory+"/H")),
+             'l': len(os.listdir(directory+"/L")),
+             'm': len(os.listdir(directory+"/M")),
+             'p': len(os.listdir(directory+"/P")),
+             'r': len(os.listdir(directory+"/R")),
              'u': len(os.listdir(directory+"/U"))}
     
     # Printing the count in each set to the screen
