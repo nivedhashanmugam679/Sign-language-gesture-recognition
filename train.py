@@ -58,7 +58,7 @@ classifier.fit_generator(
         steps_per_epoch=600, # No of images in training set
         epochs=10,
         validation_data=test_set,
-        validation_steps=30)# No of images in test set
+        validation_steps=200)# No of images in test set
 
 
 # Saving the model
